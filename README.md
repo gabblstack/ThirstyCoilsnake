@@ -1,3 +1,5 @@
+**Thirsty CoilSnake** is a fork of CoilSnake that supports MOTHER 2 instead of EarthBound. It will eventually be implemented into main CoilSnake so the same program can support both EarthBound and MOTHER 2.
+
 ## [CoilSnake](https://pk-hack.github.io/CoilSnake/)
 
 ![You engage the OctoCat.](https://pk-hack.github.io/CoilSnake/images/screenshots/octocat-battle.png)
