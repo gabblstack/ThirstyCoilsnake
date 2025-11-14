@@ -1275,7 +1275,7 @@
   offset: 0xD5899E
   size: 272
   type: data
-0xD58AC8: &id108
+0xD58ABE: &id108
   entries:
   - name: Name
     size: 10
@@ -1287,7 +1287,7 @@
     size: 4
     type: pointer
   name: TELEPHONE_CONTACTS_TABLE
-  offset: 0xD58AC8
+  offset: 0xD58ABE
   size: 96
   type: data
 0xD58B1E: &id011

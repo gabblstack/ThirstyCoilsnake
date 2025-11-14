@@ -24,7 +24,7 @@ class MiscTablesModule(EbModule):
         0xD59E00,  # Level-up EXP Table                         $D58F49
         0xD5F555,  # Initial Stats Table                        $D5F5F5
         0xD5899E,  # PSI Teleport Destination Table             $D57880
-        0xD58AC8,  # Phone Contacts Table                       $D57AAE
+        0xD58ABE,  # Phone Contacts Table                       $D57AAE
         0xD587D0,  # Store Inventory Table                      $D576B2
         0xD5F41B,  # Timed Item Transformations                 $D5F4BB
         0xD5F42F,  # Don't Care                                 $D5F4CF
