@@ -4,6 +4,8 @@ import json
 import logging
 from typing import Dict, List, Optional
 
+from coilsnake.root import LANG_PATH
+
 @dataclass
 class Language:
     iso639_1_name: str
@@ -11,7 +13,7 @@ class Language:
     alternative_names: List[str]
 
     def get_json_path(self) -> str:
-        return f"coilsnake/lang/{self.iso639_1_name}.json"
+        return f"{LANG_PATH}/{self.iso639_1_name}.json"
 
 LANGUAGES: List[Language] = [
     Language("en", "English", []),
