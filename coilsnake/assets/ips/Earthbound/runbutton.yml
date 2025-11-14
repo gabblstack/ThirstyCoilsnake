@@ -1,0 +1,7 @@
+Title: Run Button
+Author: Flynman
+Source: http://starmen.net/pkhack/hacks/technical/
+Header: 0x200
+Auto-Apply: False
+Ranges:
+- (0x300000, 0x30005a)

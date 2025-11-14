@@ -1,0 +1,2451 @@
+# This is a automatically generated trimmed version of the full EBYAML file.
+# This file only contains data block descriptions which have an "entries" entry.
+---
+...
+---
+0xC09558: &id077
+  entries:
+  - name: Pointer
+    size: 2
+    type: pointer
+  name: MOVEMENT_CTRL_CODES_PTR_TABLE
+  offset: 0xC09558
+  size: 154
+  type: data
+0xC0B2FF:
+  entries:
+  - name: Value
+    size: 1
+  offset: 0xC0B2FF
+  size: 256
+  type: data
+0xC0B425: &id098
+  entries:
+  - name: Value
+    signed: true
+    size: 1
+  name: SINE_LOOKUP_TABLE
+  offset: 0xC0B425
+  size: 256
+  type: data
+0xC2302E: &id023
+  entries:
+  - name: Enemy ID
+    size: 1
+  - name: Item IDs
+    size: 7
+    type: bytearray
+  - name: 'Null'
+    size: 1
+  name: CONSOLATION_ITEM_TABLE
+  offset: 0xC2302E
+  size: 18
+  type: data
+0xC30000: &id101
+  entries:
+  - name: Palette
+    size: 32
+    type: palette
+  name: SPRITE_GROUP_PALETTES
+  offset: 0xC30000
+  size: 256
+  type: data
+0xC3E23A: &id137
+  entries:
+  - name: X Offset
+    size: 2
+  - name: Y Offset
+    size: 2
+  - name: Width
+    size: 2
+  - name: Height
+    size: 2
+  name: WINDOW_CONFIGURATION_TABLE
+  offset: 0xC3E23A
+  size: 424
+  type: data
+0xC3F054: &id055
+  entries:
+  - name: VWF Pointer
+    size: 4
+    type: pointer
+  - name: GFX Pointer
+    size: 4
+    type: pointer
+  - name: Height?
+    size: 2
+    type: int
+  - name: Width?
+    size: 2
+    type: int
+  name: FONT_PTR_TABLE
+  offset: 0xC3F054
+  size: 60
+  type: data
+0xC3F02E: &id085
+  entries:
+  - name: Default Sprite Group
+    size: 2
+  - name: Dead Sprite Group
+    size: 2
+  - name: Ladder Sprite Group
+    size: 2
+  - name: Rope Sprite Group
+    size: 2
+  - name: Tiny Sprite Group
+    size: 2
+  - name: Tiny Dead Sprite Group
+    size: 2
+  - name: Robot Sprite Group
+    size: 2
+  - name: Unknown
+    size: 2
+  name: PLAYABLE_CHAR_GFX_TABLE
+  offset: 0xC3F02E
+  size: 272
+  type: data
+0xC3F8C3: &id002
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: ATTRACT_MODE_TXT
+  offset: 0xC3F8C3
+  size: 40
+  type: data
+0xC3FDBD: &id135
+  entries:
+  - name: Sprite
+    size: 2
+  name: UNUSED_FORSALE_SIGN_SPRITE_TABLE
+  offset: 0xC3FDBD
+  size: 8
+  type: data
+0xC400D4:
+  entries:
+  - name: Pointer
+    size: 3
+    type: pointer
+  name: MOVEMENT_VALUE_POINTER_TABLE
+  offset: 0xC400D4
+  size: 2685
+  type: data
+0xC42B0D:
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  offset: 0xC42B0D
+  size: 68
+  type: data
+0xC45C8A: &id057
+  entries:
+  - name: Probability
+    size: 1
+  name: HOMESICKNESS_PROBABILITY
+  offset: 0xC45C8A
+  size: 6
+  type: data
+0xC4A08D: &id024
+  entries:
+  - name: Action ID
+    size: 2
+  name: DEAD_TARGETTABLE_ACTIONS
+  offset: 0xC4A08D
+  size: 66
+  type: data
+0xC4A279: &id086
+  entries:
+  - name: Entry
+    size: 4
+  name: POWERS_OF_TWO
+  offset: 0xC4A279
+  size: 128
+  type: data
+0xC4A2F9: &id087
+  entries:
+  - name: Prayer
+    size: 1
+  name: PRAYER_LIST
+  offset: 0xC4A2F9
+  size: 16
+  type: data
+0xC4A309: &id088
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: PRAYER_TEXT_PTRS
+  offset: 0xC4A309
+  size: 40
+  type: data
+0xC4C05E: &id054
+  entries:
+  - name: Text
+    size: 67
+    type: standardtext
+  name: FILE_SELECT_TEXT
+  offset: 0xC4C05E
+  size: 640
+  type: data
+0xC4CAA5: &id079
+  entries:
+  - name: Sample Set 1
+    size: 1
+    type: int
+    values:
+      255: None
+  - name: Sample Set 2
+    size: 1
+    type: int
+    values:
+      255: None
+  - name: Sequence Set
+    size: 1
+    type: int
+    values:
+      255: None
+  name: MUSIC_DATASET_TABLE
+  offset: 0xC4CAA5
+  size: 573
+  type: data
+0xC4CCE2: &id080
+  entries:
+  - name: Unknown
+    size: 3
+    type: hilomid pointer
+  name: MUSIC_PACK_POINTER_TABLE
+  offset: 0xC4CCE2
+  size: 507
+  type: data
+0xC51B12: &id110
+  entries:
+  - name: Text
+    terminator: 2
+    type: standardtext
+  name: TEXT_DATA
+  offset: 0xC51B12
+  size: 237851
+  type: data
+0xC8BC2D: &id020
+  entries:
+  - name: Text
+    terminator: 0
+    type: standardtext
+  name: COMPRESSED_TEXT_DATA
+  offset: 0xC8BC2D
+  size: 4544
+  type: data
+0xC8CDED: &id021
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: COMPRESSED_TEXT_PTRS
+  offset: 0xC8CDED
+  size: 3072
+  type: data
+0xC8D9ED: &id111
+  entries:
+  - name: Text
+    terminator: 2
+    type: standardtext
+  name: TEXT_DATA_2
+  offset: 0xC8D9ED
+  size: 75074
+  type: data
+0xCAD7A1: &id009
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: BATTLEBG_GFX_POINTERS
+  offset: 0xCAD7A1
+  size: 412
+  type: data
+0xCAD93D: &id008
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: BATTLEBG_ARR_POINTERS
+  offset: 0xCAD93D
+  size: 412
+  type: data
+0xCADAD9: &id010
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: BATTLEBG_PALETTE_POINTERS
+  offset: 0xCADAD9
+  size: 456
+  type: data
+0xCADCA1: &id014
+  entries:
+  - name: Graphics and Arrangement
+    size: 1
+  - name: Palette
+    size: 1
+  - name: Colour depth
+    size: 1
+  - name: Palette Cycle
+    size: 1
+    values:
+    - None
+    - 1
+    - 1 + 2
+    - 1 (Reverse)
+  - name: Palette Cycle 1 Begin
+    size: 1
+  - name: Palette Cycle 1 End
+    size: 1
+  - name: Palette Cycle 2 Begin
+    size: 1
+  - name: Palette Cycle 2 End
+    size: 1
+  - name: Palette-changing speed
+    size: 1
+  - name: Scrolling Movement 1
+    size: 1
+  - name: Scrolling Movement 2
+    size: 1
+  - name: Scrolling Movement 3
+    size: 1
+  - name: Scrolling Movement 4
+    size: 1
+  - name: Distortion 1
+    size: 1
+  - name: Distortion 2
+    size: 1
+  - name: Distortion 3
+    size: 1
+  - name: Distortion 4
+    size: 1
+  name: BG_DATA_TABLE
+  offset: 0xCADCA1
+  size: 5559
+  type: data
+0xCAF258: &id016
+  entries:
+  - name: Duration
+    size: 2
+  - name: Horizontal Movement
+    signed: true
+    size: 2
+  - name: Vertical Movement
+    signed: true
+    size: 2
+  - name: Horizontal Acceleration
+    signed: true
+    size: 2
+  - name: Vertical Acceleration
+    signed: true
+    size: 2
+  name: BG_SCROLLING_TABLE
+  offset: 0xCAF258
+  size: 1200
+  type: data
+0xCAF708: &id015
+  entries:
+  - name: Unknown A
+    size: 2
+  - name: Type
+    size: 1
+    values:
+    - Unknown Type 0
+    - Horizontal, Smooth
+    - Horizontal, Interlaced
+    - Vertical, Smooth
+    - Unknown Type 4
+  - name: Ripple Frequency
+    size: 2
+  - name: Ripple Amplitude
+    size: 2
+  - name: Unknown B
+    size: 1
+  - name: Unknown C
+    size: 2
+  - name: Ripple Frequency Acceleration
+    signed: true
+    size: 2
+  - name: Ripple Amplitude Acceleration
+    signed: true
+    size: 2
+  - name: Speed
+    size: 1
+  - name: Unknown D
+    size: 2
+  name: BG_DISTORTION_TABLE
+  offset: 0xCAF708
+  size: 2295
+  type: data
+0xCBD89A: &id017
+  entries:
+  - name: Background 1
+    size: 2
+  - name: Background 2
+    size: 2
+  name: BTL_ENTRY_BG_TABLE
+  offset: 0xCBD89A
+  size: 1936
+  type: data
+0xCC2EF8: &id001
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  - name: Graphics data size
+    size: 2
+    type: int
+  - name: Frame count
+    size: 1
+  - name: Unknown
+    size: 1
+  name: ANIMATION_SEQUENCE_POINTERS
+  offset: 0xCC2EF8
+  size: 56
+  type: data
+0xCCF04D: &id090
+  entries:
+  - base: 0xCC0000
+    name: Short pointer to tileset
+    size: 2
+    type: pointer
+  - name: Frame duration (1/60th seconds)
+    size: 1
+  - name: Palette duration (1/60th seconds)
+    size: 1
+  - name: unknown
+    size: 2
+    type: bytearray
+  - name: Frame count
+    size: 1
+  - name: unknown 2
+    size: 2
+    type: bytearray
+  - name: Duration of enemy colour change
+    size: 1
+  - name: Enemy colour
+    size: 2
+    type: palette
+  name: PSI_ANIM_CFG
+  offset: 0xCCF04D
+  size: 408
+  type: data
+0xCCF47F: &id091
+  entries:
+  - name: Palette
+    size: 16
+    type: palette
+  name: PSI_ANIM_PALETTES
+  offset: 0xCCF47F
+  size: 272
+  type: data
+0xCCF58F: &id092
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: PSI_ANIM_POINTERS
+  offset: 0xCCF58F
+  size: 136
+  type: data
+0xCCF617: &id007
+  entries:
+  - name: Size
+    size: 2
+    type: int
+  - name: Base Address
+    size: 2
+    type: hexint
+  - name: Data
+    size: Size-4
+    type: bytearray
+  name: AUDIO_PACK_71
+  offset: 0xCCF617
+  size: 2494
+  terminator: 0
+  type: data
+0xCCFFD5: &id134
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: UNKNOWN_PTR_CCFFD5
+  offset: 0xCCFFD5
+  size: 4
+  type: data
+0xCE62EE: &id012
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  - name: Sprite Size
+    size: 1
+    values:
+    - 0
+    - 32x32
+    - 64x32
+    - 32x64
+    - 64x64
+    - 128x64
+    - 128x128
+  name: BATTLE_SPRITES_POINTERS
+  offset: 0xCE62EE
+  size: 550
+  type: data
+0xCE6514: &id013
+  entries:
+  - name: Palette
+    size: 32
+    type: palette
+  name: BATTLE_SPRITE_PALETTES
+  offset: 0xCE6514
+  size: 1024
+  type: data
+0xCEDC45: &id107
+  entries:
+  - base: 0xCE0000
+    name: Pointer
+    size: 2
+    type: pointer
+  name: SWIRL_POINTER_TABLE
+  offset: 0xCEDC45
+  size: 252
+  type: data
+0xCEDD41:
+  entries:
+  - name: Speed
+    size: 1
+  - name: First Animation
+    size: 1
+  - name: Number of Animations
+    size: 2
+  name: SWIRL_ANIMATION_PRIMARY_TABLE
+  offset: 0x000000
+  size: 28
+  type: data
+0xCEF806: &id099
+  entries:
+  - name: Palette
+    size: 32
+    type: palette
+  name: SOUND_STONE_PALETTE
+  offset: 0xCEF806
+  size: 192
+  type: data
+0xCF0000: &id027
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  - name: Event Flag
+    size: 2
+    type: hexint
+  - name: Y
+    size: 2
+  - name: X
+    size: 2
+  - name: Style
+    size: 1
+  name: DOOR_DEST_TABLE_1
+  offset: 0xCF0000
+  size: 1408
+  type: data
+0xCF0580: &id096
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: SIGN_POINTERS_1
+  offset: 0xCF0580
+  size: 44
+  type: data
+0xCF05AC: &id038
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  - name: Event Flag
+    size: 2
+    type: hexint
+  - name: Y
+    size: 2
+  - name: X
+    size: 2
+  - name: Style
+    size: 1
+  name: DOOR_DEST_TABLE_2
+  offset: 0xCF05AC
+  size: 44
+  type: data
+0xCF05D8: &id097
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: SIGN_POINTERS_2
+  offset: 0xCF05D8
+  size: 32
+  type: data
+0xCF05F8: &id040
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  - name: Event Flag
+    size: 2
+    type: hexint
+  - name: Y
+    size: 2
+  - name: X
+    size: 2
+  - name: Style
+    size: 1
+  name: DOOR_DEST_TABLE_3
+  offset: 0xCF05F8
+  size: 44
+  type: data
+0xCF0624: &id120
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: UNKNOWN_DPOINTERS_1
+  offset: 0xCF0624
+  size: 36
+  type: data
+0xCF0648: &id041
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  - name: Event Flag
+    size: 2
+    type: hexint
+  - name: Y
+    size: 2
+  - name: X
+    size: 2
+  - name: Style
+    size: 1
+  name: DOOR_DEST_TABLE_4
+  offset: 0xCF0648
+  size: 847
+  type: data
+0xCF0997: &id126
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: UNKNOWN_DPOINTERS_2
+  offset: 0xCF0997
+  size: 32
+  type: data
+0xCF09B7: &id042
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  - name: Event Flag
+    size: 2
+    type: hexint
+  - name: Y
+    size: 2
+  - name: X
+    size: 2
+  - name: Style
+    size: 1
+  name: DOOR_DEST_TABLE_5
+  offset: 0xCF09B7
+  size: 275
+  type: data
+0xCF0ACA: &id127
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: UNKNOWN_DPOINTERS_3
+  offset: 0xCF0ACA
+  size: 8
+  type: data
+0xCF0AD2: &id043
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  - name: Event Flag
+    size: 2
+    type: hexint
+  - name: Y
+    size: 2
+  - name: X
+    size: 2
+  - name: Style
+    size: 1
+  name: DOOR_DEST_TABLE_6
+  offset: 0xCF0AD2
+  size: 781
+  type: data
+0xCF0DDF: &id128
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: UNKNOWN_DPOINTERS_4
+  offset: 0xCF0DDF
+  size: 8
+  type: data
+0xCF0DE7: &id044
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  - name: Event Flag
+    size: 2
+    type: hexint
+  - name: Y
+    size: 2
+  - name: X
+    size: 2
+  - name: Style
+    size: 1
+  name: DOOR_DEST_TABLE_7
+  offset: 0xCF0DE7
+  size: 77
+  type: data
+0xCF0E34: &id129
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: UNKNOWN_DPOINTERS_5
+  offset: 0xCF0E34
+  size: 36
+  type: data
+0xCF0E58: &id045
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  - name: Event Flag
+    size: 2
+    type: hexint
+  - name: Y
+    size: 2
+  - name: X
+    size: 2
+  - name: Style
+    size: 1
+  name: DOOR_DEST_TABLE_8
+  offset: 0xCF0E58
+  size: 154
+  type: data
+0xCF0EF2: &id130
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: UNKNOWN_DPOINTERS_6
+  offset: 0xCF0EF2
+  size: 4
+  type: data
+0xCF0EF6: &id046
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  - name: Event Flag
+    size: 2
+    type: hexint
+  - name: Y
+    size: 2
+  - name: X
+    size: 2
+  - name: Style
+    size: 1
+  name: DOOR_DEST_TABLE_9
+  offset: 0xCF0EF6
+  size: 902
+  type: data
+0xCF127C: &id131
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: UNKNOWN_DPOINTERS_7
+  offset: 0xCF127C
+  size: 4
+  type: data
+0xCF1280: &id028
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  - name: Event Flag
+    size: 2
+    type: hexint
+  - name: Y
+    size: 2
+  - name: X
+    size: 2
+  - name: Style
+    size: 1
+  name: DOOR_DEST_TABLE_10
+  offset: 0xCF1280
+  size: 297
+  type: data
+0xCF13A9: &id132
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: UNKNOWN_DPOINTERS_8
+  offset: 0xCF13A9
+  size: 4
+  type: data
+0xCF13AD: &id029
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  - name: Event Flag
+    size: 2
+    type: hexint
+  - name: Y
+    size: 2
+  - name: X
+    size: 2
+  - name: Style
+    size: 1
+  name: DOOR_DEST_TABLE_11
+  offset: 0xCF13AD
+  size: 1991
+  type: data
+0xCF1B74: &id133
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: UNKNOWN_DPOINTERS_9
+  offset: 0xCF1B74
+  size: 12
+  type: data
+0xCF1B80: &id030
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  - name: Event Flag
+    size: 2
+    type: hexint
+  - name: Y
+    size: 2
+  - name: X
+    size: 2
+  - name: Style
+    size: 1
+  name: DOOR_DEST_TABLE_12
+  offset: 0xCF1B80
+  size: 11
+  type: data
+0xCF1B8B: &id121
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: UNKNOWN_DPOINTERS_10
+  offset: 0xCF1B8B
+  size: 24
+  type: data
+0xCF1BA3: &id031
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  - name: Event Flag
+    size: 2
+    type: hexint
+  - name: Y
+    size: 2
+  - name: X
+    size: 2
+  - name: Style
+    size: 1
+  name: DOOR_DEST_TABLE_13
+  offset: 0xCF1BA3
+  size: 528
+  type: data
+0xCF1DB3: &id122
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: UNKNOWN_DPOINTERS_11
+  offset: 0xCF1DB3
+  size: 32
+  type: data
+0xCF1DD3: &id032
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  - name: Event Flag
+    size: 2
+    type: hexint
+  - name: Y
+    size: 2
+  - name: X
+    size: 2
+  - name: Style
+    size: 1
+  name: DOOR_DEST_TABLE_14
+  offset: 0xCF1DD3
+  size: 22
+  type: data
+0xCF1DE9: &id123
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: UNKNOWN_DPOINTERS_12
+  offset: 0xCF1DE9
+  size: 12
+  type: data
+0xCF1DF5: &id033
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  - name: Event Flag
+    size: 2
+    type: hexint
+  - name: Y
+    size: 2
+  - name: X
+    size: 2
+  - name: Style
+    size: 1
+  name: DOOR_DEST_TABLE_15
+  offset: 0xCF1DF5
+  size: 341
+  type: data
+0xCF1F6C: &id034
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  - name: Event Flag
+    size: 2
+    type: hexint
+  - name: Y
+    size: 2
+  - name: X
+    size: 2
+  - name: Style
+    size: 1
+  name: DOOR_DEST_TABLE_16
+  offset: 0xCF1F6C
+  size: 374
+  type: data
+0xCF20F7: &id035
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  - name: Event Flag
+    size: 2
+    type: hexint
+  - name: Y
+    size: 2
+  - name: X
+    size: 2
+  - name: Style
+    size: 1
+  name: DOOR_DEST_TABLE_17
+  offset: 0xCF20F7
+  size: 242
+  type: data
+0xCF21E9: &id048
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: DUNGEON_MAN_SIGN_POINTERS
+  offset: 0xCF21E9
+  size: 176
+  type: data
+0xCF2299: &id036
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  - name: Event Flag
+    size: 2
+    type: hexint
+  - name: Y
+    size: 2
+  - name: X
+    size: 2
+  - name: Style
+    size: 1
+  name: DOOR_DEST_TABLE_18
+  offset: 0xCF2299
+  size: 286
+  type: data
+0xCF23B7: &id124
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: UNKNOWN_DPOINTERS_15
+  offset: 0xCF23B7
+  size: 12
+  type: data
+0xCF23C3: &id037
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  - name: Event Flag
+    size: 2
+    type: hexint
+  - name: Y
+    size: 2
+  - name: X
+    size: 2
+  - name: Style
+    size: 1
+  name: DOOR_DEST_TABLE_19
+  offset: 0xCF23C3
+  size: 484
+  type: data
+0xCF25A7: &id125
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: UNKNOWN_DPOINTERS_16
+  offset: 0xCF25A7
+  size: 24
+  type: data
+0xCF25BF: &id039
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  - name: Event Flag
+    size: 2
+    type: hexint
+  - name: Y
+    size: 2
+  - name: X
+    size: 2
+  - name: Style
+    size: 1
+  name: DOOR_DEST_TABLE_20
+  offset: 0xCF25BF
+  size: 143
+  type: data
+0xCF592B: &id082
+  entries:
+  - base: 0xCF0000
+    name: Pointer
+    size: 2
+    type: pointer
+  name: OVERWORLD_EVENT_MUSIC_PTR_TABLE
+  offset: 0xCF592B
+  size: 330
+  type: data
+0xCF6223: &id102
+  entries:
+  - base: 0xCF0000
+    name: Pointer
+    size: 2
+    type: pointer
+  name: SPRITE_PLACEMENT_PTR_TABLE
+  offset: 0xCF6223
+  size: 2560
+  type: data
+0xCF89C1: &id081
+  entries:
+  - name: Type
+    size: 1
+    values:
+    - 0
+    - Person
+    - Item
+    - Object
+  - name: Sprite
+    size: 2
+  - name: Direction
+    size: 1
+    values:
+    - Up
+    - Up-Right
+    - Right
+    - Down-Right
+    - Down
+    - Down-Left
+    - Left
+    - Up-Left
+  - name: Movement
+    size: 2
+  - name: Event Flag
+    size: 2
+    type: hexint
+  - name: Show Sprite
+    size: 1
+    values:
+    - Always
+    - When event flag unset
+    - When event flag set
+  - name: Text Pointer 1
+    size: 4
+    type: pointer
+  - name: Text Pointer 2
+    size: 4
+    type: pointer
+  name: NPC_CONFIG_TABLE
+  offset: 0xCF89C1
+  size: 26928
+  type: data
+0xD00000: &id047
+  entries:
+  - name: Door Pointer
+    size: 4
+    type: pointer
+  name: DOOR_POINTER_TABLE
+  offset: 0xD00000
+  size: 5120
+  type: data
+0xD01400: &id095
+  entries:
+  - name: Duration
+    size: 1
+  - name: Animation ID
+    size: 1
+  - name: Animation Flags
+    size: 1
+  - name: Fade Style
+    size: 1
+  - name: Direction
+    size: 1
+  - name: Unknown
+    size: 1
+  - name: Slide speed
+    size: 1
+  - name: Initial Sound effect
+    size: 1
+  - name: Secondary Duration
+    size: 1
+  - name: Secondary Animation ID
+    size: 1
+  - name: Secondary Animation Flags
+    size: 1
+  - name: Final Sound effect
+    size: 1
+  name: SCREEN_TRANSITION_CONFIG_TABLE
+  offset: 0xD01400
+  size: 408
+  type: data
+0xD01598: &id051
+  entries:
+  - base: 0xD00000
+    name: Pointer
+    size: 2
+    type: pointer
+  name: EVENT_CONTROL_PTR_TABLE
+  offset: 0xD01598
+  size: 40
+  type: data
+0xD01880: &id074
+  entries:
+  - name: Enemy Map Group
+    size: 2
+  name: MAP_ENEMY_PLACEMENT
+  offset: 0xD01880
+  size: 40960
+  type: data
+0xD0B880: &id050
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: ENEMY_PLACEMENT_GROUPS_PTR_TABLE
+  offset: 0xD0B880
+  size: 812
+  type: data
+0xD0C60D: &id018
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  - name: Fear event flag
+    size: 2
+    type: hexint
+  - name: Fear mode
+    size: 1
+    values:
+    - Run away if flag is unset
+    - Run away if flag is set
+  - name: Letterbox Size
+    size: 1
+  name: BTL_ENTRY_PTR_TABLE
+  offset: 0xD0C60D
+  size: 3872
+  type: data
+0xD10000: &id083
+  entries:
+  - bpp: 4
+    name: Tile
+    size: 16
+    type: tile
+  name: OVERWORLD_SPRITES
+  offset: 0xD10000
+  size: 280000
+  type: data
+0xD57000: &id059
+  entries:
+  - name: Name
+    size: 10
+    type: standardtext
+  - name: Type
+    size: 1
+  - name: Cost
+    size: 2
+  - bitvalues:
+    - Ness can use
+    - Paula can use
+    - Jeff can use
+    - Poo can use
+    - Item can change
+    - Cannot be given away
+    - Cannot be stored with Escargo Express
+    - Item disappears when used
+    name: Misc Flags
+    size: 1
+    type: bitfield
+  - name: Action
+    size: 2
+  - name: Argument
+    size: 4
+    type: bytearray
+  - name: Help Text Pointer
+    size: 4
+    type: pointer
+  name: ITEM_CONFIGURATION_TABLE
+  offset: 0xD57000
+  size: 6096
+  type: data
+0xD587D0: &id106
+  entries:
+  - name: Item 1
+    size: 1
+  - name: Item 2
+    size: 1
+  - name: Item 3
+    size: 1
+  - name: Item 4
+    size: 1
+  - name: Item 5
+    size: 1
+  - name: Item 6
+    size: 1
+  - name: Item 7
+    size: 1
+  name: STORE_TABLE
+  offset: 0xD587D0
+  size: 462
+  type: data
+0xD5899E: &id094
+  entries:
+  - name: Name
+    size: 10
+    type: standardtext
+  - name: Event Flag
+    size: 2
+    type: hexint
+  - name: X
+    size: 2
+  - name: Y
+    size: 2
+  name: PSI_TELEPORT_DEST_TABLE
+  offset: 0xD5899E
+  size: 272
+  type: data
+0xD58AC8: &id108
+  entries:
+  - name: Name
+    size: 10
+    type: standardtext
+  - name: Event Flag
+    size: 2
+    type: hexint
+  - name: Text Pointer
+    size: 4
+    type: pointer
+  name: TELEPHONE_CONTACTS_TABLE
+  offset: 0xD58AC8
+  size: 96
+  type: data
+0xD58B1E: &id011
+  entries:
+  - name: Direction
+    size: 1
+    values:
+    - enemy
+    - party
+  - name: Target
+    size: 1
+    values:
+    - none
+    - one
+    - random
+    - row
+    - all
+  - name: Action type
+    size: 1
+    values:
+    - nothing
+    - physical (affected by shields and defending)
+    - physical (unaffected by shields and defending)
+    - PSI
+    - item
+    - other
+  - name: PP Cost
+    size: 1
+  - name: Text Address
+    size: 4
+    type: pointer
+  - name: Code Address
+    size: 4
+    type: pointer
+  name: BATTLE_ACTION_TABLE
+  offset: 0xD58B1E
+  size: 3816
+  type: data
+0xD59A06: &id089
+  entries:
+  - name: PSI Name
+    size: 1
+    substtable: PSI_NAME_TABLE
+    type: one-based int 
+  - name: Strength
+    size: 1
+    values:
+    - none
+    - alpha
+    - beta
+    - gamma
+    - sigma
+    - omega
+  - bitvalues:
+    - Offense
+    - Recovery
+    - Assist
+    - Other
+    name: Type
+    size: 1
+    type: bitfield
+  - name: Usability Outside of Battle
+    size: 1
+    values:
+    - ???
+    - Other
+    - Unusable
+    - Usable
+  - name: Action
+    size: 2
+  - name: Level learned by Ness
+    size: 1
+  - name: Level learned by Paula
+    size: 1
+  - name: Level learned by Poo
+    size: 1
+  - name: PSI Menu position (X)
+    size: 1
+  - name: PSI Menu position (Y)
+    size: 1
+  - name: Text Address
+    size: 4
+    type: pointer
+  name: PSI_ABILITY_TABLE
+  offset: 0xD59A06
+  size: 810
+  type: data
+0xD59D30: &id093
+  entries:
+  - name: Name
+    size: 10
+    type: standardtext
+  name: PSI_NAME_TABLE
+  offset: 0xD59D30
+  size: 170
+  type: data
+0xD59E00: &id052
+  entries:
+  - name: Level 00 EXP
+    size: 4
+  - name: Level 01 EXP
+    size: 4
+  - name: Level 02 EXP
+    size: 4
+  - name: Level 03 EXP
+    size: 4
+  - name: Level 04 EXP
+    size: 4
+  - name: Level 05 EXP
+    size: 4
+  - name: Level 06 EXP
+    size: 4
+  - name: Level 07 EXP
+    size: 4
+  - name: Level 08 EXP
+    size: 4
+  - name: Level 09 EXP
+    size: 4
+  - name: Level 10 EXP
+    size: 4
+  - name: Level 11 EXP
+    size: 4
+  - name: Level 12 EXP
+    size: 4
+  - name: Level 13 EXP
+    size: 4
+  - name: Level 14 EXP
+    size: 4
+  - name: Level 15 EXP
+    size: 4
+  - name: Level 16 EXP
+    size: 4
+  - name: Level 17 EXP
+    size: 4
+  - name: Level 18 EXP
+    size: 4
+  - name: Level 19 EXP
+    size: 4
+  - name: Level 20 EXP
+    size: 4
+  - name: Level 21 EXP
+    size: 4
+  - name: Level 22 EXP
+    size: 4
+  - name: Level 23 EXP
+    size: 4
+  - name: Level 24 EXP
+    size: 4
+  - name: Level 25 EXP
+    size: 4
+  - name: Level 26 EXP
+    size: 4
+  - name: Level 27 EXP
+    size: 4
+  - name: Level 28 EXP
+    size: 4
+  - name: Level 29 EXP
+    size: 4
+  - name: Level 30 EXP
+    size: 4
+  - name: Level 31 EXP
+    size: 4
+  - name: Level 32 EXP
+    size: 4
+  - name: Level 33 EXP
+    size: 4
+  - name: Level 34 EXP
+    size: 4
+  - name: Level 35 EXP
+    size: 4
+  - name: Level 36 EXP
+    size: 4
+  - name: Level 37 EXP
+    size: 4
+  - name: Level 38 EXP
+    size: 4
+  - name: Level 39 EXP
+    size: 4
+  - name: Level 40 EXP
+    size: 4
+  - name: Level 41 EXP
+    size: 4
+  - name: Level 42 EXP
+    size: 4
+  - name: Level 43 EXP
+    size: 4
+  - name: Level 44 EXP
+    size: 4
+  - name: Level 45 EXP
+    size: 4
+  - name: Level 46 EXP
+    size: 4
+  - name: Level 47 EXP
+    size: 4
+  - name: Level 48 EXP
+    size: 4
+  - name: Level 49 EXP
+    size: 4
+  - name: Level 50 EXP
+    size: 4
+  - name: Level 51 EXP
+    size: 4
+  - name: Level 52 EXP
+    size: 4
+  - name: Level 53 EXP
+    size: 4
+  - name: Level 54 EXP
+    size: 4
+  - name: Level 55 EXP
+    size: 4
+  - name: Level 56 EXP
+    size: 4
+  - name: Level 57 EXP
+    size: 4
+  - name: Level 58 EXP
+    size: 4
+  - name: Level 59 EXP
+    size: 4
+  - name: Level 60 EXP
+    size: 4
+  - name: Level 61 EXP
+    size: 4
+  - name: Level 62 EXP
+    size: 4
+  - name: Level 63 EXP
+    size: 4
+  - name: Level 64 EXP
+    size: 4
+  - name: Level 65 EXP
+    size: 4
+  - name: Level 66 EXP
+    size: 4
+  - name: Level 67 EXP
+    size: 4
+  - name: Level 68 EXP
+    size: 4
+  - name: Level 69 EXP
+    size: 4
+  - name: Level 70 EXP
+    size: 4
+  - name: Level 71 EXP
+    size: 4
+  - name: Level 72 EXP
+    size: 4
+  - name: Level 73 EXP
+    size: 4
+  - name: Level 74 EXP
+    size: 4
+  - name: Level 75 EXP
+    size: 4
+  - name: Level 76 EXP
+    size: 4
+  - name: Level 77 EXP
+    size: 4
+  - name: Level 78 EXP
+    size: 4
+  - name: Level 79 EXP
+    size: 4
+  - name: Level 80 EXP
+    size: 4
+  - name: Level 81 EXP
+    size: 4
+  - name: Level 82 EXP
+    size: 4
+  - name: Level 83 EXP
+    size: 4
+  - name: Level 84 EXP
+    size: 4
+  - name: Level 85 EXP
+    size: 4
+  - name: Level 86 EXP
+    size: 4
+  - name: Level 87 EXP
+    size: 4
+  - name: Level 88 EXP
+    size: 4
+  - name: Level 89 EXP
+    size: 4
+  - name: Level 90 EXP
+    size: 4
+  - name: Level 91 EXP
+    size: 4
+  - name: Level 92 EXP
+    size: 4
+  - name: Level 93 EXP
+    size: 4
+  - name: Level 94 EXP
+    size: 4
+  - name: Level 95 EXP
+    size: 4
+  - name: Level 96 EXP
+    size: 4
+  - name: Level 97 EXP
+    size: 4
+  - name: Level 98 EXP
+    size: 4
+  - name: Level 99 EXP
+    size: 4
+  name: EXP_TABLE
+  offset: 0xD59E00
+  size: 1600
+  type: data
+0xD5A440: &id049
+  entries:
+  - name: Name
+    size: 10
+    type: standardtext
+  - name: Type
+    size: 1
+    values:
+    - Normal
+    - Insect
+    - Metal
+  - name: Battle Sprite
+    size: 2
+  - name: Overworld Sprite
+    size: 2
+  - name: Run Flag
+    size: 1
+    values:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - Unknown
+    - True
+    - False
+  - name: HP
+    size: 2
+  - name: PP
+    size: 2
+  - name: Experience points
+    size: 4
+  - name: Money
+    size: 2
+  - name: Movement pattern
+    size: 2
+  - name: Encounter Text Pointer
+    size: 4
+    type: pointer
+  - name: Death Text Pointer
+    size: 4
+    type: pointer
+  - name: Battle Sprite Palette
+    size: 1
+  - name: Level
+    size: 1
+  - name: Music
+    size: 1
+  - name: Offense
+    size: 2
+  - name: Defense
+    size: 2
+  - name: Speed
+    size: 1
+  - name: Guts
+    size: 1
+  - name: Luck
+    size: 1
+  - name: Fire vulnerability
+    size: 1
+    values:
+    - 100%
+    - 70%
+    - 40%
+    - 5%
+  - name: Freeze vulnerability
+    size: 1
+    values:
+    - 100%
+    - 70%
+    - 40%
+    - 5%
+  - name: Flash vulnerability
+    size: 1
+    values:
+    - 100%
+    - 70%
+    - 40%
+    - 5%
+  - name: Paralysis vulnerability
+    size: 1
+    values:
+    - 100%
+    - 50%
+    - 10%
+    - 0%
+  - name: Hypnosis/Brainshock vulnerability
+    size: 1
+    values:
+    - 100%
+    - 50%
+    - 10%
+    - 0%
+  - name: Miss Rate
+    size: 1
+  - name: Action Order
+    size: 1
+  - name: Action 1
+    size: 2
+  - name: Action 2
+    size: 2
+  - name: Action 3
+    size: 2
+  - name: Action 4
+    size: 2
+  - name: Final Action
+    size: 2
+  - name: Action 1 Argument
+    size: 1
+  - name: Action 2 Argument
+    size: 1
+  - name: Action 3 Argument
+    size: 1
+  - name: Action 4 Argument
+    size: 1
+  - name: Final Action Argument
+    size: 1
+  - name: Unknown
+    size: 1
+  - name: Boss Flag
+    size: 1
+    values:
+    - False
+    - True
+  - name: Item Rarity
+    size: 1
+    values:
+    - 1/128
+    - 2/128
+    - 4/128
+    - 8/128
+    - 16/128
+    - 32/128
+    - 64/128
+    - 128/128
+  - name: Item Dropped
+    size: 1
+  - name: Initial Status
+    size: 1
+    values:
+    - Normal
+    - PSI Shield Alpha
+    - PSI Shield Beta
+    - Shield Alpha
+    - Shield Beta
+    - Asleep
+    - Cannot Concentrate
+    - Feeling Strange
+  - name: Death Sound
+    size: 1
+    values:
+    - Normal
+    - Boss
+  - name: Row
+    size: 1
+  - name: Max Call
+    size: 1
+  - name: Mirror Success Rate
+    size: 1
+  name: ENEMY_CONFIGURATION_TABLE
+  offset: 0xD5A440
+  size: 17787
+  type: data
+0xD5E9BB: &id105
+  entries:
+  - name: Offense
+    size: 1
+  - name: Defense
+    size: 1
+  - name: Speed
+    size: 1
+  - name: Guts
+    size: 1
+  - name: Vitality
+    size: 1
+  - name: IQ
+    size: 1
+  - name: Luck
+    size: 1
+  name: STATS_GROWTH_VARS
+  offset: 0xD5E9BB
+  size: 28
+  type: data
+0xD5E9D7: &id022
+  entries:
+  - name: food
+    size: 1
+  - name: condiment 1
+    size: 1
+  - name: condiment 2
+    size: 1
+  - name: effect
+    size: 1
+    values:
+    - Restore HP
+    - Restore PP
+    - Restore HP/PP
+    - Increase Random Stat
+    - Increase IQ
+    - Increase Guts
+    - Increase Speed
+    - Increase Vitality
+    - Increase Luck
+    - No visible effect
+  - name: good recover
+    size: 1
+  - name: bad recover
+    size: 1
+  - name: run time
+    size: 1
+  name: CONDIMENT_TABLE
+  offset: 0xD5E9D7
+  size: 308
+  type: data
+0xD5EB0B: &id109
+  entries:
+  - name: X
+    size: 2
+  - name: Y
+    size: 2
+  - name: Direction
+    size: 1
+  - name: Warp Style
+    size: 1
+  - name: Unknown
+    size: 2
+  name: TELEPORT_DESTINATION_TABLE
+  offset: 0xD5EB0B
+  size: 1872
+  type: data
+0xD5F25B: &id075
+  entries:
+  - name: X1
+    size: 2
+  - name: Y1
+    size: 2
+  - name: X2
+    size: 2
+  - name: Y2
+    size: 2
+  name: MAP_HOTSPOTS
+  offset: 0xD5F25B
+  size: 448
+  type: data
+0xD5F41B: &id116
+  entries:
+  - name: Item ID
+    size: 1
+  - name: Sound Effect
+    size: 1
+  - name: Sound Frequency
+    size: 1
+  - name: New Item
+    size: 1
+  - name: Delay
+    size: 1
+  name: TIMED_ITEM_TRANSFORMATION_TABLE
+  offset: 0xD5F41B
+  size: 20
+  type: data
+0xD5F42F: &id026
+  entries:
+  - name: Name 1
+    size: 6
+    type: standardtext
+  - name: Name 2
+    size: 6
+    type: standardtext
+  - name: Name 3
+    size: 6
+    type: standardtext
+  - name: Name 4
+    size: 6
+    type: standardtext
+  - name: Name 5
+    size: 6
+    type: standardtext
+  - name: Name 6
+    size: 6
+    type: standardtext
+  - name: Name 7
+    size: 6
+    type: standardtext
+  name: DONT_CARE_NAMES
+  offset: 0xD5F42F
+  size: 294
+  type: data
+0xD5F555: &id058
+  entries:
+  - name: Unknown
+    size: 4
+    type: bytearray
+  - name: Money
+    size: 2
+  - name: Level
+    size: 2
+  - name: Experience Points
+    size: 2
+  - name: Items Possessed
+    size: 10
+    type: bytearray
+  name: INITIAL_STATS
+  offset: 0xD5F555
+  size: 80
+  type: data
+0xD5F5A5: &id115
+  entries:
+  - name: Sprite Group
+    size: 2
+  - name: Event Flag
+    size: 2
+    type: hexint
+  - name: Unknown
+    size: 4
+    type: bytearray
+  - name: Timer
+    size: 2
+  - name: Delivery Success Text Pointer
+    size: 3
+    type: pointer
+  - name: Delivery Failure Text Pointer
+    size: 3
+    type: pointer
+  - name: Unknown2
+    size: 4
+    type: bytearray
+  name: TIMED_DELIVERY_TABLE
+  offset: 0xD5F5A5
+  size: 200
+  type: data
+0xD60000: &id071
+  entries:
+  - name: Line
+    size: 256
+    type: bytearray
+  name: MAP_DATA_TILE_TABLE
+  offset: 0xD60000
+  size: 86016
+  type: data
+0xD7A800: &id056
+  entries:
+  - name: Value
+    size: 1
+  name: GLOBAL_MAP_TILESETPALETTE_DATA
+  offset: 0xD7A800
+  size: 2560
+  type: data
+0xD7B200: &id063
+  entries:
+  - name: Bitfield
+    size: 1
+  - name: Item ID
+    size: 1
+  name: MAP_DATA_PER-SECTOR_ATTRIBUTES_TABLE
+  offset: 0xD7B200
+  size: 5120
+  type: data
+0xD88F50: &id069
+  entries:
+  - base: 0xD80000
+    name: Pointer
+    size: 2
+    type: pointer
+  name: MAP_DATA_TILE_COLLISION_ARRANGEMENT_POINTER_TABLE
+  offset: 0xD88F50
+  size: 24846
+  type: data
+0xD8F3BE: &id136
+  entries:
+  - name: Palette
+    size: 8
+    type: palette
+  name: WARNING_PALETTE
+  offset: 0xD8F3BE
+  size: 8
+  type: data
+0xD8F3C6: &id053
+  entries:
+  - name: Tile
+    size: 1
+  - name: Misc
+    size: 1
+  name: FAULTY_GAME_PAK_ARRANGEMENT
+  offset: 0xD8F3C6
+  size: 510
+  type: data
+0xDA7CA7: &id061
+  entries:
+  - name: Palette
+    size: 32
+    type: palette
+  name: MAP_DATA_PALETTES
+  offset: 0xDA7CA7
+  size: 32256
+  type: data
+0xDAFAA7: &id072
+  entries:
+  - name: Pointer
+    size: 3
+    type: pointer
+  name: MAP_DATA_UNKNOWN_PALETTE_PTR_TABLE
+  offset: 0xDAFAA7
+  size: 96
+  type: data
+0xDCD634 : &id064
+  entries:
+  - name: Music
+    size: 1
+  name: MAP_DATA_PER-SECTOR_MUSIC
+  offset: 0xDCD634 
+  size: 2560
+  type: data
+0xDFE4E1: &id062
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: MAP_DATA_PALETTE_ANIM_POINTER_TABLE
+  offset: 0xDFE4E1
+  size: 124
+  type: data
+0xDFEC46: &id006
+  entries:
+  - name: Size
+    size: 2
+    type: int
+  - name: Base Address
+    size: 2
+    type: hexint
+  - name: Data
+    size: Size-4
+    type: bytearray
+  name: AUDIO_PACK_4
+  offset: 0xDFEC46
+  size: 5050
+  terminator: 0
+  type: data
+0xE01FC8: &id113
+  entries:
+  - name: Text Palette
+    size: 8
+    type: palette
+  - name: Cursor, Box, Number Palette
+    size: 8
+    type: palette
+  - name: Unknown Palette
+    size: 8
+    type: palette
+  - name: Special Text Palette
+    size: 8
+    type: palette
+  - name: HP/PP Palette
+    size: 8
+    type: palette
+  - name: Darkened Palette
+    size: 8
+    type: palette
+  - name: AUTO, affliction Palette
+    size: 8
+    type: palette
+  - name: Non-battle text Palette
+    size: 8
+    type: palette
+  name: TEXT_WINDOW_FLAVOUR_PALETTES
+  offset: 0xE01FC8
+  size: 448
+  type: data
+0xE02188: &id078
+  entries:
+  - name: Palette
+    size: 8
+    type: palette
+  name: MOVEMENT_TEXT_STRING_PALETTE
+  offset: 0xE02188
+  size: 8
+  type: data
+0xE02190: &id117
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: TOWN_MAP_GFX_POINTER_TABLE
+  offset: 0xE02190
+  size: 24
+  type: data
+0xE123E1: &id084
+  entries:
+  - name: Event Flag
+    size: 2
+    type: hexint
+  - name: Unknown A
+    size: 3
+    type: bytearray
+  - name: Unknown B
+    size: 2
+  - name: Unknown C
+    size: 1
+    type: hexint
+  - name: Unknown D
+    size: 54
+    type: bytearray
+  name: PHOTOGRAPHER_CFG_TABLE
+  offset: 0xE123E1
+  size: 1984
+  type: data
+0xE13596: &id104
+  entries:
+  - name: Text
+    terminator: 0
+    type: stafftext
+  name: STAFF_TEXT
+  offset: 0xE13596
+  size: 3241
+  type: data
+0xE1E914: &id103
+  entries:
+  - name: Palette
+    size: 8
+    type: palette
+  name: STAFF_CREDITS_FONT_PALETTE
+  offset: 0xE1E914
+  size: 16
+  type: data
+0xE1F1C3: &id118
+  entries:
+  - name: Palette
+    size: 32
+    type: palette
+  name: TOWN_MAP_ICON_PALETTE
+  offset: 0xE1F1C3
+  size: 64
+  type: data
+0xE1E19E: &id119
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: TOWN_MAP_ICON_PLACEMENT_PTR_TABLE
+  offset: 0xE1E19E
+  size: 24
+  type: data
+0xE60000: &id003
+  entries:
+  - name: Size
+    size: 2
+    type: int
+  - name: Base Address
+    size: 2
+    type: hexint
+  - name: Data
+    size: Size-4
+    type: bytearray
+  name: AUDIO_PACK_1
+  offset: 0xE60000
+  size: 17880
+  terminator: 0
+  type: data
+0xEAFE8B: &id005
+  entries:
+  - name: Size
+    size: 2
+    type: int
+  - name: Base Address
+    size: 2
+    type: hexint
+  - name: Data
+    size: Size-4
+    type: bytearray
+  name: AUDIO_PACK_145
+  offset: 0xEAFE8B
+  size: 340
+  type: data
+0xEE52E6: &id004
+  entries:
+  - name: Size
+    size: 2
+    type: int
+  - name: Base Address
+    size: 2
+    type: hexint
+  - name: Data
+    size: Size-4
+    type: bytearray
+  name: AUDIO_PACK_103
+  offset: 0xEE52E6
+  size: 1017
+  terminator: 0
+  type: data
+0xEF621D: &id114
+  entries:
+  - name: Tileset
+    size: 2
+    type: hexint
+  name: TILESET_TABLE
+  offset: 0xEF621D
+  size: 64
+  type: data
+0xEF625D: &id066
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: MAP_DATA_TILESET_PTR_TABLE
+  offset: 0xEF625D
+  size: 80
+  type: data
+0xEF62AD: &id068
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: MAP_DATA_TILE_ARRANGEMENT_PTR_TABLE
+  offset: 0xEF62AD
+  size: 80
+  type: data
+0xEF62FD: &id076
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: MAP_PALETTE_PTR_TABLE
+  offset: 0xEF62FD
+  size: 128
+  type: data
+0xEF637D: &id070
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: MAP_DATA_TILE_COLLISION_PTR_TABLE
+  offset: 0xEF637D
+  size: 80
+  type: data
+0xEF11CB: &id067
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: MAP_DATA_TILE_ANIMATION_PTR_TABLE
+  offset: 0xEF11CB
+  size: 80
+  type: data
+0xEF121B: &id073
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: MAP_DATA_WEIRD_TILE_ANIMATION_PTR_TABLE
+  offset: 0xEF121B
+  size: 80
+  type: data
+0xEF6541: &id100
+  entries:
+  - name: Pointer
+    size: 4
+    type: pointer
+  name: SPRITE_GROUPING_PTR_TABLE
+  offset: 0xEF6541
+  size: 1856
+  type: data
+0xEF4A40: &id112
+  entries:
+  - name: Text
+    terminator: 2
+    type: standardtext
+  name: TEXT_DATA_EF4A40
+  offset: 0xEF4A40
+  size: 22842
+  type: data
+0xEFA37A: &id019
+  entries:
+  - name: Text
+    size: 10
+    type: standardtext
+  name: CMD_WINDOW_TEXT
+  offset: 0xEFA37A
+  size: 60
+  type: data
+0xEFA022: &id065
+  entries:
+  - name: Town Map
+    size: 1
+  - name: Town Map X
+    size: 1
+  - name: Town Map Y
+    size: 1
+  name: MAP_DATA_PER-SECTOR_TOWN_MAP_DATA
+  offset: 0xEFA022
+  size: 7680
+  type: data
+0xEFEB70: &id025
+  entries:
+  - bpp: 2
+    name: Tile
+    size: 16
+    type: tile
+  name: DEBUG_MENU_FONT
+  offset: 0xEFEB70
+  size: 1024
+  type: data
+0xEFEFB7: &id060
+  entries:
+  - bpp: 4
+    name: Tile
+    palette: 0xEFF2BB
+    size: 32
+    type: tile
+  name: KIRBY
+  offset: 0xEFEFB7
+  size: 288
+  type: data
+0xEFF1BB:
+  entries:
+  - name: Palette
+    size: 32
+    type: palette
+  offset: 0xEFF1BB
+  size: 512
+  type: data
+ANIMATION_SEQUENCE_POINTERS: *id001
+ATTRACT_MODE_TXT: *id002
+AUDIO_PACK_1: *id003
+AUDIO_PACK_103: *id004
+AUDIO_PACK_145: *id005
+AUDIO_PACK_4: *id006
+AUDIO_PACK_71: *id007
+BATTLEBG_ARR_POINTERS: *id008
+BATTLEBG_GFX_POINTERS: *id009
+BATTLEBG_PALETTE_POINTERS: *id010
+BATTLE_ACTION_TABLE: *id011
+BATTLE_SPRITES_POINTERS: *id012
+BATTLE_SPRITE_PALETTES: *id013
+BG_DATA_TABLE: *id014
+BG_DISTORTION_TABLE: *id015
+BG_SCROLLING_TABLE: *id016
+BTL_ENTRY_BG_TABLE: *id017
+BTL_ENTRY_PTR_TABLE: *id018
+CMD_WINDOW_TEXT: *id019
+COMPRESSED_TEXT_DATA: *id020
+COMPRESSED_TEXT_PTRS: *id021
+CONDIMENT_TABLE: *id022
+CONSOLATION_ITEM_TABLE: *id023
+DEAD_TARGETTABLE_ACTIONS: *id024
+DEBUG_MENU_FONT: *id025
+DONT_CARE_NAMES: *id026
+DOOR_DEST_TABLE_1: *id027
+DOOR_DEST_TABLE_10: *id028
+DOOR_DEST_TABLE_11: *id029
+DOOR_DEST_TABLE_12: *id030
+DOOR_DEST_TABLE_13: *id031
+DOOR_DEST_TABLE_14: *id032
+DOOR_DEST_TABLE_15: *id033
+DOOR_DEST_TABLE_16: *id034
+DOOR_DEST_TABLE_17: *id035
+DOOR_DEST_TABLE_18: *id036
+DOOR_DEST_TABLE_19: *id037
+DOOR_DEST_TABLE_2: *id038
+DOOR_DEST_TABLE_20: *id039
+DOOR_DEST_TABLE_3: *id040
+DOOR_DEST_TABLE_4: *id041
+DOOR_DEST_TABLE_5: *id042
+DOOR_DEST_TABLE_6: *id043
+DOOR_DEST_TABLE_7: *id044
+DOOR_DEST_TABLE_8: *id045
+DOOR_DEST_TABLE_9: *id046
+DOOR_POINTER_TABLE: *id047
+DUNGEON_MAN_SIGN_POINTERS: *id048
+ENEMY_CONFIGURATION_TABLE: *id049
+ENEMY_PLACEMENT_GROUPS_PTR_TABLE: *id050
+EVENT_CONTROL_PTR_TABLE: *id051
+EXP_TABLE: *id052
+FAULTY_GAME_PAK_ARRANGEMENT: *id053
+FILE_SELECT_TEXT: *id054
+FONT_PTR_TABLE: *id055
+GLOBAL_MAP_TILESETPALETTE_DATA: *id056
+HOMESICKNESS_PROBABILITY: *id057
+INITIAL_STATS: *id058
+ITEM_CONFIGURATION_TABLE: *id059
+KIRBY: *id060
+MAP_DATA_PALETTES: *id061
+MAP_DATA_PALETTE_ANIM_POINTER_TABLE: *id062
+MAP_DATA_PER-SECTOR_ATTRIBUTES_TABLE: *id063
+MAP_DATA_PER-SECTOR_MUSIC: *id064
+MAP_DATA_PER-SECTOR_TOWN_MAP_DATA: *id065
+MAP_DATA_TILESET_PTR_TABLE: *id066
+MAP_DATA_TILE_ANIMATION_PTR_TABLE: *id067
+MAP_DATA_TILE_ARRANGEMENT_PTR_TABLE: *id068
+MAP_DATA_TILE_COLLISION_ARRANGEMENT_POINTER_TABLE: *id069
+MAP_DATA_TILE_COLLISION_PTR_TABLE: *id070
+MAP_DATA_TILE_TABLE: *id071
+MAP_DATA_UNKNOWN_PALETTE_PTR_TABLE: *id072
+MAP_DATA_WEIRD_TILE_ANIMATION_PTR_TABLE: *id073
+MAP_ENEMY_PLACEMENT: *id074
+MAP_HOTSPOTS: *id075
+MAP_PALETTE_PTR_TABLE: *id076
+MOVEMENT_CTRL_CODES_PTR_TABLE: *id077
+MOVEMENT_TEXT_STRING_PALETTE: *id078
+MUSIC_DATASET_TABLE: *id079
+MUSIC_PACK_POINTER_TABLE: *id080
+NPC_CONFIG_TABLE: *id081
+OVERWORLD_EVENT_MUSIC_PTR_TABLE: *id082
+OVERWORLD_SPRITES: *id083
+PHOTOGRAPHER_CFG_TABLE: *id084
+PLAYABLE_CHAR_GFX_TABLE: *id085
+POWERS_OF_TWO: *id086
+PRAYER_LIST: *id087
+PRAYER_TEXT_PTRS: *id088
+PSI_ABILITY_TABLE: *id089
+PSI_ANIM_CFG: *id090
+PSI_ANIM_PALETTES: *id091
+PSI_ANIM_POINTERS: *id092
+PSI_NAME_TABLE: *id093
+PSI_TELEPORT_DEST_TABLE: *id094
+SCREEN_TRANSITION_CONFIG_TABLE: *id095
+SIGN_POINTERS_1: *id096
+SIGN_POINTERS_2: *id097
+SINE_LOOKUP_TABLE: *id098
+SOUND_STONE_PALETTE: *id099
+SPRITE_GROUPING_PTR_TABLE: *id100
+SPRITE_GROUP_PALETTES: *id101
+SPRITE_PLACEMENT_PTR_TABLE: *id102
+STAFF_CREDITS_FONT_PALETTE: *id103
+STAFF_TEXT: *id104
+STATS_GROWTH_VARS: *id105
+STORE_TABLE: *id106
+SWIRL_POINTER_TABLE: *id107
+TELEPHONE_CONTACTS_TABLE: *id108
+TELEPORT_DESTINATION_TABLE: *id109
+TEXT_DATA: *id110
+TEXT_DATA_2: *id111
+TEXT_DATA_EF4A40: *id112
+TEXT_WINDOW_FLAVOUR_PALETTES: *id113
+TILESET_TABLE: *id114
+TIMED_DELIVERY_TABLE: *id115
+TIMED_ITEM_TRANSFORMATION_TABLE: *id116
+TOWN_MAP_GFX_POINTER_TABLE: *id117
+TOWN_MAP_ICON_PALETTE: *id118
+TOWN_MAP_ICON_PLACEMENT_PTR_TABLE: *id119
+UNKNOWN_DPOINTERS_1: *id120
+UNKNOWN_DPOINTERS_10: *id121
+UNKNOWN_DPOINTERS_11: *id122
+UNKNOWN_DPOINTERS_12: *id123
+UNKNOWN_DPOINTERS_15: *id124
+UNKNOWN_DPOINTERS_16: *id125
+UNKNOWN_DPOINTERS_2: *id126
+UNKNOWN_DPOINTERS_3: *id127
+UNKNOWN_DPOINTERS_4: *id128
+UNKNOWN_DPOINTERS_5: *id129
+UNKNOWN_DPOINTERS_6: *id130
+UNKNOWN_DPOINTERS_7: *id131
+UNKNOWN_DPOINTERS_8: *id132
+UNKNOWN_DPOINTERS_9: *id133
+UNKNOWN_PTR_CCFFD5: *id134
+UNUSED_FORSALE_SIGN_SPRITE_TABLE: *id135
+WARNING_PALETTE: *id136
+WINDOW_CONFIGURATION_TABLE: *id137
+
+...
