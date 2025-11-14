@@ -33,8 +33,8 @@ setup(
 
     install_requires=install_requires,
     dependency_links=[
-        "https://github.com/Lyrositor/CCScriptWriter/tarball/master#egg=CCScriptWriter-1.2",
-        "https://github.com/charasyn/ccscript_legacy/tarball/m2-beta#egg=ccscript-1.501"
+        "https://github.com/Supremekirb/CCScriptWriter/tarball/charmap#egg=CCScriptWriter-1.3",
+        "https://github.com/charasyn/ccscript_legacy/tarball/m2-beta#egg=ccscript-1.502"
     ],
     ext_modules=[
         Extension(
