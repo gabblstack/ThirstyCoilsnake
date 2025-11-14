@@ -3,7 +3,7 @@ class CharacterSubstitutions(object):
 
 BYTE_TO_CHARACTER_JP = {
     0x20: ' ',
-    0x22: '$',
+    0x23: '$',
     0x25: 'ー',
     0x26: '〜',
     0x27: '/',

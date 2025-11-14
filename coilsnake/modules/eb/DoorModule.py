@@ -37,7 +37,11 @@ class DoorModule(EbModule):
                     # If we've found an invalid door, stop reading from this door group.
                     # This is expected, since a clean ROM contains some invalid doors.
                     break
-                door_area.append(door)
+                # TODO: make this check M2 specific and/or find a better way to filter out this bad
+                # door
+                text_address = getattr(getattr(door, 'text_pointer', None), 'address', None)
+                if not (True and text_address == 0xEF0403):
+                    door_area.append(door)
                 offset += 5
             self.door_areas.append(door_area)
 
