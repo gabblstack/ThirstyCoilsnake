@@ -8,7 +8,7 @@ except:
 VERSION = project.VERSION_NAMES[project.FORMAT_VERSION]
 if GIT_COMMIT:
     VERSION = f"{VERSION}-next-{GIT_COMMIT}"
-RELEASE_DATE = "July 22, 2026"
+RELEASE_DATE = "July 25, 2026"
 
 WEBSITE = "http://pk-hack.github.io/CoilSnake"
 AUTHOR = "the PK Hack community. (Forked from CoilSnake 4.2)"
