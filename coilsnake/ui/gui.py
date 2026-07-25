@@ -340,7 +340,7 @@ class CoilSnakeGui(object):
                                                    + self.guistrings.get("attempt_compile_2")
                                                    + self.guistrings.get("attempt_compile_3")
                                                    # askquestion() takes from 0 to 2 positional arguments
-                                                   + "\n\n",
+                                                   + "\n\n"
                                                    + self.guistrings.get("ask_expand_base")
                                                    + self.guistrings.get("ask_expand_base_2"),
                                                    icon='warning')
