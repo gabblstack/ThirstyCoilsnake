@@ -43,7 +43,10 @@ a = Analysis(
     ['script/gui.py'],
     pathex = ['.'],
     binaries = binaries,
-    datas = [('coilsnake/assets', 'coilsnake/assets')],
+    datas = [
+    ('coilsnake/assets', 'coilsnake/assets'),
+    ('coilsnake/lang', 'coilsnake/lang'),
+],
     hiddenimports = hiddenimports,
     hookspath = [],
     runtime_hooks = [],
